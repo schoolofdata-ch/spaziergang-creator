@@ -2,9 +2,17 @@
   "name": "spaziergang-creator",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "3.5",
     "feather-icons": "^4.7.3",
     "mapbox-gl": "^0.47.0",
     "sortablejs": "^1.7.0",
-    "spectre.css": "^0.5.3"
+    "spectre.css": "^0.5.3",
+    "vue": "^2.5.17",
+    "vue-loader": "14.2.2",
+    "vue-mapbox": "0.0.34",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
   }
 }

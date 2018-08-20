@@ -6,6 +6,22 @@
   </div>
 
   <div class="columns">
+    <div id='hello' class="column col-12">
+      {{mapStyle}}
+      <mgl-map
+        class="large-map"
+        :accessToken="accessToken"
+        :mapStyle="mapStyle"
+      >
+        <mgl-marker :coordinates="coordinates" color="blue"></mgl-marker>
+      </mgl-map>
+    </div>
+  </div>
+
+  <hr class="space-t">
+  <hr>
+
+  <div class="columns">
     <div class="column col-6">
       <%= link_to sort_walk_stations_path(@walk),
       class: "btn tooltip",
