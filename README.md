@@ -6,6 +6,17 @@ Spaziergang Creator a web-based tool to create your own [Datenspaziergang](https
 
 It also serves as an API server for the mentioned frontend app.
 
+## Docker setup
+
+You need docker-compose installed.
+
+Build the image: `$ docker compose build`
+
+`$ docker-compose run web bundle install`
+
+
+
+
 ## Local setup
 
 > Ruby 2.5.1
