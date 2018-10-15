@@ -17,6 +17,11 @@ $purple: $purple-dark;
 $inactive-purple: #a576f1;
 $foam: #00ff9d;
 
+$gray-color-light: #e7e9ed;
+$dark-color: #454d5d;
+$gray-color: #acb3c2;
+$light-color: #fff;
+$error-color: $orange;
 
 $primary-color: $purple;
 $secondary-color: $foam;
@@ -27,8 +32,9 @@ $error: $pink-light;
 
 
 // Import full Spectre source code
-@import "spectre.css/src/spectre";
-@import "mapbox-gl/dist/mapbox-gl.css";
+@import "vendor/spectre";
+//@import "vendor/mapbox-gl.css";
+//@import "vendor/mapbox-gl-geocoder.css";
 @import "sortable";
 @import "base";
 @import "layout";

@@ -32,4 +32,4 @@
 # Ignore more things
 /coverage
 
-/config/database.yml
+/config/database.yml.local

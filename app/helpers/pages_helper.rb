@@ -20,9 +20,10 @@ module PagesHelper
 
   def pages_parse_challenges(challenges)
     challenges
-      .split('-')
+      .split(/\r?\n/)
       .select { |f| !f.empty? }
       .map { |f| f.strip }
+      .map { |f| f.gsub(/^-[ ]/, '') }
   end
 
   def pages_parse_content(content)
